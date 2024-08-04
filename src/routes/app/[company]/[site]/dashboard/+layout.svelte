@@ -52,30 +52,16 @@
       <Tooltip.Root>
         <Tooltip.Trigger asChild let:builder>
           <a
-            href="/dashboard/orders"
-            class={currentPath == "/dashboard/orders" ? navActive : navNormal}
-            use:builder.action
-            {...builder}
-          >
-            <ShoppingCart class="h-5 w-5" />
-            <span class="sr-only">Orders</span>
-          </a>
-        </Tooltip.Trigger>
-        <Tooltip.Content side="right">Orders</Tooltip.Content>
-      </Tooltip.Root>
-      <Tooltip.Root>
-        <Tooltip.Trigger asChild let:builder>
-          <a
-            href="/dashboard/products"
-            class={currentPath == "/dashboard/products" ? navActive : navNormal}
+            href="/dashboard/assets"
+            class={currentPath == "/dashboard/assets" ? navActive : navNormal}
             use:builder.action
             {...builder}
           >
             <Package class="h-5 w-5" />
-            <span class="sr-only">Products</span>
+            <span class="sr-only">Assets</span>
           </a>
         </Tooltip.Trigger>
-        <Tooltip.Content side="right">Products</Tooltip.Content>
+        <Tooltip.Content side="right">Assets</Tooltip.Content>
       </Tooltip.Root>
       <Tooltip.Root>
         <Tooltip.Trigger asChild let:builder>
@@ -86,10 +72,10 @@
             {...builder}
           >
             <UsersRound class="h-5 w-5" />
-            <span class="sr-only">Customers</span>
+            <span class="sr-only">Users</span>
           </a>
         </Tooltip.Trigger>
-        <Tooltip.Content side="right">Customers</Tooltip.Content>
+        <Tooltip.Content side="right">Users</Tooltip.Content>
       </Tooltip.Root>
       <Tooltip.Root>
         <Tooltip.Trigger asChild let:builder>

@@ -1,6 +1,10 @@
 {
 	"/": [],
-	"/dashboard": [],
-	"/dashboard/settings": [],
-	"/dashboard/users": []
+	"/app/[company]": [],
+	"/app/[company]/reports": [],
+	"/app/[company]/settings": [],
+	"/app/[company]/users": [],
+	"/app/[company]/[site]/dashboard": [],
+	"/app/[company]/[site]/dashboard/settings": [],
+	"/app/[company]/[site]/dashboard/users": []
 }
